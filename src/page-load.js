@@ -1,5 +1,11 @@
+import { nav } from './nav';
+import { body } from './body';
+import { footer } from './footer';
+
 const pageLoad = function() {
-    console.log('page is loading up...')
+    nav();
+    body();
+    footer();
 }
 
 export { pageLoad };
