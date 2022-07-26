@@ -1,41 +1,68 @@
 body {
-  margin: 0px;
+	margin: 0px;
 }
 
 #nav-bar {
-    background-color: rgb(211, 67, 0);
-    height: 5em;
-    margin: 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+	background-color: rgb(211, 67, 0);
+	height: 4em;
+	margin: 0px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#links-container {
+	display: flex;
+  list-style-type: none;
 }
 
 .nav-links {
-    margin: 10px;
-    background-color: #ff5300;
-    border: 0;
-    padding: 12px;
-    color: white;
-    box-shadow: inset 0px 0px 4px 3px #c23f00;
-    border-radius: 7px;
+	margin: 10px;
+	background-color: #ff5300;
+	border: 0;
+	padding: 12px;
+	color: white;
+	box-shadow: inset 0px 0px 4px 3px #c23f00;
+	border-radius: 7px;
+}
+.nav-links:hover {
+	background-color: #ff7e3d;
 }
 
 #site-name {
-    font-family: 'Ibarra Real Nova', serif;
-    color: white;
-    margin-left: 10px;
+	font-family: "Ibarra Real Nova", serif;
+	color: white;
+	margin-left: 10px;
 }
 
 #main-body {
-  background-image: url(restraunt.jpeg);
-  background-position: center;
-  background-size: cover;
-  height: 90vh;
+	background-image: url(restraunt.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#star-img {
+	width: auto;
+	height: 100px;
+}
+
+#hello {
+	color: white;
+	font-family: arial;
+	font-size: 3em;
 }
 
 #footer {
-  height: 10vh;
-  background-color: rgb(154, 49, 0);
+	height: 10vh;
+	background-color: rgb(154, 49, 0);
+}
+
+#title-container {
+	text-align: center;
 }
