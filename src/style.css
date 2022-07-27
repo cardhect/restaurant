@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 }
-
+/* Nav bar */
 #nav-bar {
 	background-color: rgb(211, 67, 0);
 	height: 4em;
@@ -35,7 +35,7 @@ body {
 	color: white;
 	margin-left: 10px;
 }
-
+/* Main-Body */
 #main-body {
 	background-image: url(restraunt.jpeg);
 	background-position: center;
@@ -52,17 +52,46 @@ body {
 	height: 100px;
 }
 
+#title-container {
+	text-align: center;
+}
+
 #hello {
 	color: white;
 	font-family: arial;
 	font-size: 3em;
 }
 
+/* Menu */
+#card-container {
+
+	background-color: red;
+	background-image: url(restraunt.jpeg);
+
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+	display: grid;
+    align-items: center;
+    justify-items: center;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.menu-img {
+	    height: 250px;
+		width: 100%;
+}
+.menu-card {
+	width: 250px;
+}
+
+.menu-description {
+	color: white;
+}
+
+/* Footer */
 #footer {
 	height: 10vh;
 	background-color: rgb(154, 49, 0);
-}
-
-#title-container {
-	text-align: center;
 }
