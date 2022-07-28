@@ -32,7 +32,9 @@ for (let index = 0; index < navLinks.length; index++) {
 			
 		} else if (linkId == "About") {
 			console.log("true, this is the about");
+			clearMain(about);
 		} else if (linkId == "Contact") {
+			clearMain(contact);
 			console.log("true, this is the contact");
 		}
 	});
