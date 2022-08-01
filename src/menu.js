@@ -34,7 +34,7 @@ const tacosCard = document.getElementById('tacos-card');
 const quesadillaCard = document.getElementById('quesadilla-card');
 const fluatasCard = document.getElementById('fluatas-card');
 const empanadaCard = document.getElementById('empanadas-card');
-
+ 
 let menuCardSelectors = [tacosCard, quesadillaCard, fluatasCard, empanadaCard];
 // add menu descr to each menu card /
 // add id to each menu desc /
